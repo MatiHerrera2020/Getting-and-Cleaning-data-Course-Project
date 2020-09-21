@@ -3,7 +3,7 @@
 The original dataset provide the following codebook for each activity:
 Mean and standart deviation for the following features (these parameters were used from the original codebook/features):
 
--tBodyAcc-XYZ
+  -tBodyAcc-XYZ
 
 -tGravityAcc-XYZ
 
@@ -52,6 +52,6 @@ These signals were used to estimate variables of the feature vector for each pat
 CodeBook
 To create the final tidy data set:
 
-1.Added a new feature activitylabel - factor variable for activities with the following levels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
+  1.Added a new feature activitylabel - factor variable for activities with the following levels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
 
-2.Tidy dataset was build as a mean values of features grouped by activitylabel and subject - for each subject and activity type determined mean values over all activities of that type.
+  2.Tidy dataset was build as a mean values of features grouped by activitylabel and subject - for each subject and activity type determined mean values over all activities of that type.
