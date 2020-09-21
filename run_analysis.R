@@ -28,7 +28,6 @@ test$subject <- factor(subject.test$V1)
 
 #merging both, TEST and TRAIN
 cuadro.completo <- rbind(test, train)
-dim(cuadro.completo)
 
 #now we can filter the column names for or purpose
 nombre.columnas <- colnames(cuadro.completo)
